@@ -1,0 +1,14 @@
+name: test
+main: base.Test
+version: 1.0.0
+author: test
+website: www
+load: STARTUP
+description: test
+commands:
+    test:
+        description: The main command.
+permissions:
+    test.admin:
+        description: test
+        default: op
